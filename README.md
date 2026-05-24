@@ -56,4 +56,5 @@ entry/src/main/js/default/
 
 - [LiteWearable_Tools](https://github.com/alone-86/LiteWearable_Tools)
 - [LiteWearable_InputMethod](https://github.com/alone-86/LiteWearable_InputMethod)
+- [1299172402/weici](https://github.com/1299172402/weici)
 - Dictionary icons created by Freepik
