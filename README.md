@@ -26,8 +26,7 @@ entry/src/main/js/default/
 │   ├── index/                # 启动页
 │   ├── home/                 # 主页
 │   ├── search_keyboard/
-│   │   ├── english/          # 英文键盘
-│   │   └── chinese/          # 中文九宫格键盘
+│   │   └── english/          # 统一搜索键盘（英文/拼音切换）
 │   ├── search_word/          # 词典查询引擎
 │   ├── show_word/            # 单词详情展示
 │   ├── settings/             # 设置页面
