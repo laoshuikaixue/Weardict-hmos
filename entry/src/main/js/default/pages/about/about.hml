@@ -1,0 +1,66 @@
+<stack class="list">
+    <div class="container loading-container" if="{{ !isShow }}">
+        <image class="wait" src="/common/wait.png"></image>
+        <text class="wait-text">加载中，请稍候</text>
+    </div>
+    <list class="list" ref="list" if="{{ isShow }}" on:swipe="handleSwipe">
+        <list-item class="hero-item">
+            <div class="hero">
+                <image src="/common/icon.png" class="hero-icon"></image>
+                <text class="hero-name">腕上词典</text>
+                <text class="hero-version">V{{ versionName }}</text>
+            </div>
+        </list-item>
+        <list-item class="section-list-item">
+            <div class="section-row">
+                <text class="section-title">开发团队</text>
+            </div>
+        </list-item>
+        <list-item class="item">
+            <div class="item background" freeze="true"
+                 style="background-color: {{ RounderBackgroundValue.background }};
+                         border-radius: {{ RounderBackgroundValue.radius }};">
+                <div class="info-line">
+                    <text class="info-label">原作</text>
+                    <text class="info-value">@.yukino &amp; cnoim</text>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="item">
+            <div class="item background" freeze="true"
+                 style="background-color: {{ RounderBackgroundValue.background }};
+                         border-radius: {{ RounderBackgroundValue.radius }};">
+                <div class="info-line">
+                    <text class="info-label">二开</text>
+                    <text class="info-value">@LaoShui</text>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="item">
+            <div class="item background" freeze="true"
+                 style="background-color: {{ RounderBackgroundValue.background }};
+                         border-radius: {{ RounderBackgroundValue.radius }};">
+                <div class="info-line">
+                    <text class="info-label">贡献者</text>
+                    <text class="info-value">@棽木 &amp; 东东</text>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="item" grab:click="openSource">
+            <div class="item background" freeze="true"
+                 style="background-color: {{ RounderBackgroundValue.background }};
+                         border-radius: {{ RounderBackgroundValue.radius }};">
+                <div class="info-line">
+                    <text class="info-label">开源地址</text>
+                    <image class="right" src="/common/right.png"></image>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="empty-item"></list-item>
+    </list>
+    <div class="dialog-root-container" grab:click="dialogClick" grab:swipe="dialogSwipe" if="{{ showQrDialog }}">
+        <div class="qr-container" grab:click="doNotPropagation" grab:swipe="dialogSwipe">
+            <qrcode class="qrcode" value="https://github.com/laoshuikaixue/Weardict-hmos"></qrcode>
+        </div>
+    </div>
+</stack>

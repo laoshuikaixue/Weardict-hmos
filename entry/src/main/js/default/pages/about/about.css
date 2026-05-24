@@ -1,0 +1,148 @@
+.list {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.loading-container {
+    justify-content: center;
+}
+
+.wait {
+    width: 108px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.wait-text {
+    font-size: 30px;
+}
+
+.hero-item {
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-icon {
+    width: 160px;
+    height: 160px;
+}
+
+.hero-name {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.hero-version {
+    font-size: 26px;
+    color: rgb(128, 128, 128);
+    margin-top: 2px;
+}
+
+.section-list-item {
+    width: 100%;
+    height: 60px;
+}
+
+.section-row {
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.section-title {
+    width: 100%;
+    font-size: 26px;
+    color: rgb(128, 128, 128);
+    margin-left: 22px;
+    margin-bottom: 5px;
+}
+
+.item {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 90%;
+    height: 90px;
+    justify-content: center;
+}
+
+.info-line {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info-label {
+    width: 130px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.info-value {
+    width: 230px;
+    font-size: 26px;
+    color: rgb(128, 128, 128);
+    margin-right: 20px;
+    text-align: right;
+}
+
+.right {
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
+
+.empty-item {
+    width: 100%;
+    height: 80px;
+}
+
+.dialog-root-container {
+    width: 100%;
+    height: 100%;
+    background-color: #80000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-container {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.qrcode {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}

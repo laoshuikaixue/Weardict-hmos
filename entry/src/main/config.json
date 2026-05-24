@@ -1,0 +1,45 @@
+{
+  "app": {
+    "vendor": "laoshui",
+    "bundleName": "com.laoshui.dict",
+    "version": {
+      "code": 1,
+      "name": "1.1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/search_keyboard/english/english",
+          "pages/settings/settings",
+          "pages/about/about",
+          "pages/history/history",
+          "pages/wordbook/wordbook",
+          "pages/home/home",
+          "pages/search_word/search_word",
+          "pages/show_word/show_word"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}
