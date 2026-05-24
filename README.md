@@ -54,7 +54,7 @@ entry/src/main/js/default/
 
 本项目开发过程中参考或使用了以下开源项目与资源，在此表示感谢：
 
-- [LiteWearable_Tools](https://github.com/alone-86/LiteWearable_Tools)
-- [LiteWearable_InputMethod](https://github.com/alone-86/LiteWearable_InputMethod)
+- [alone-86/LiteWearable_Tools](https://github.com/alone-86/LiteWearable_Tools)
+- [alone-86/LiteWearable_InputMethod](https://github.com/alone-86/LiteWearable_InputMethod)
 - [1299172402/weici](https://github.com/1299172402/weici)
 - Dictionary icons created by Freepik
